@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f7cb46;
+    color: #383242;
+  }
+  
+  header {
+    background-color: #f196e4;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  header p.lead {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+  
+  section {
+    padding: 2rem 0;
+  }
+  
+  .card h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #383242;
+  }
+  .header-section {
+    background-color: #f196e4; /* Arka plan rengini ayarlayın */
+    padding: 100px 0;
+  }
+  
+  .display-1 {
+    font-size: 4rem; /* Genel başlık boyutu */
+  }
+  
+  .super {
+    font-size: 1.5rem; /* "super" için küçük boyut */
+    font-weight: 300; /* İnce font ağırlığı */
+    color: #ffffff; /* Beyaz renk */
+    text-transform: uppercase; /* İsteğe bağlı olarak büyük harf yapabiliriz */
+  }
+  
+  .hello {
+    font-size: 6rem; /* "hello" için büyük boyut */
+    font-weight: bold; /* Kalın font ağırlığı */
+    color: #ffffff; /* Beyaz renk */
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-top: 20px;
+  }
+  
+  .btn-warning {
+    background-color: #ffa500; /* Buton rengi (isteğe göre değiştirin) */
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ff8c00; /* Hover efekti için koyu renk */
+  }
+  
